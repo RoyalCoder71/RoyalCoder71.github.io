@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration_style.css">
+    <title>Registration Page</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+
+        <img class="avatar" src="images/Screenshot (810).png" alt="Avatar">
+
+        <h1>Registration Content</h1>
+
+        <table>
+            <tr>
+                <td>
+
+
+                    <div class="first_name">
+                        <p>First Name:</p>
+                        <input type="text" placeholder="First Name" required>
+                    </div>
+
+
+                </td>
+                <td>
+
+                    <div class="last_name">
+                        <p>Last Name:</p>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+
+
+                </td>
+
+            </tr>
+        </table>
+
+
+
+        <p>Select Gender:</p>
+        <div class="gender">
+            <input type="radio" name="Gender" required> Male
+            <input type="radio" name="Gender" required> Female
+        </div>
+
+
+        <p>Enter Your Email:</p>
+        <input class="email" type="email" name="Email" placeholder="Email Address: example@gamil.com" required>
+
+
+
+        <table>
+            <tr>
+
+                <td>
+                    <p>Your Phone Number:</p>
+                    <select>
+                        <option>+880</option>
+                        <option>+91</option>
+                        <option>+1</option>
+                        <option>+44</option>
+                    </select>
+                    <input class="phone" type="text" placeholder="Phone Number">
+
+                </td>
+
+
+                <td>
+                    <div class="picture_selection">
+                        <p>Select your profile picture:</p>
+                        <input type="file" name="Profile" required>
+                    </div>
+
+                </td>
+
+            </tr>
+        </table>
+
+
+
+        <div class="Password">
+            <p>Write password:</p>
+            <input type="password" name="Password" placeholder="Password" required>
+        </div>
+
+        <br>
+
+        <input class="signup" type="submit" value="Sign Up">
+    </form>
+</body>
+
+</html>

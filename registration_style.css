@@ -1,0 +1,177 @@
+/* Web Page Body */
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("images/registration_back.jpg");
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+
+
+/* Form Page */
+form {
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    background-color: black;
+}
+
+
+
+h1 {
+    color: rgb(255, 115, 0);
+    text-align: center;
+}
+
+
+/* Name Section */
+.first_name {
+    width: fit-content;
+}
+
+.first_name input[type="text"] {
+    border: none;
+    outline: none;
+    color: gold;
+    border-bottom: 1px solid gold;
+    background: transparent;
+    font-size: 16px;
+}
+
+
+.last_name {
+    width: fit-content;
+    margin-left: 100px;
+}
+
+.last_name input[type="text"] {
+    border: none    ;
+    outline: none;
+    color: gold;
+    border-bottom: 1px solid gold;
+    background: transparent;
+    font-size: 16px;
+}
+
+
+
+
+/* Profile Picture */
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+
+    border-bottom: 3px solid rgb(251, 255, 0);
+
+
+    margin-left: 250px;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/* Input section of Form page */
+form input {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    margin-top: 3px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/* Gender Section */
+.gender input {
+    width: 20%;
+    padding: 0;
+    margin: 0;
+
+    border: none;
+    outline: none;
+    color: gold;
+    border-bottom: 1px solid gold;
+    background: transparent;
+    font-size: 16px;
+}
+
+
+
+/* Email Section */
+.email {
+    border: none;
+    outline: none;
+    color: gold;
+    border-bottom: 1px solid gold;
+    background: transparent;
+    font-size: 16px;
+}
+
+
+
+
+/* Phone Number Section */
+.phone {
+    width: 50%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: gold;
+    border-bottom: 1px solid gold;
+    font-size: 16px;
+}
+
+
+
+/* Choos Profile Picture */
+.picture_selection {
+    margin-left: 60px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+/* Input section of Password Section */
+.Password input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: gold;
+    border-bottom: 1px solid gold;
+    font-size: 16px;
+}
+
+
+
+/* Signup section */
+.signup {
+    margin-left: 200px;
+    width: 60px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 30px;
+}
+
+::placeholder {
+    color: darkgray;
+    font-size: 12px;
+}
